@@ -1,0 +1,38 @@
+body {
+  header {
+    height: 100vh;/* 100% de viewport */
+    background-image: url('../img/post-image.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    color: white;
+    div {
+      position: absolute;
+      top: 200px;
+      width: 100%;
+      font-style: italic;
+      h1 {
+       font-size: 72px;
+     }
+     i {
+
+     }
+    }
+    @media (max-width: 576px) {/*al reducir a pantalla sm*/
+      div {
+        top: 200px;
+        width: 50%;
+        margin-left: 100px;
+        font-style: italic;
+        h1 {
+         font-size: 40px;
+         font-family: $playfair;
+       }
+
+      }
+
+    }
+
+  }
+}

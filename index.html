@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<!-- html -->
+<html lang="en" dir="ltr">
+  <!-- cabeza -->
+  <head>
+      <meta charset="utf-8">
+      <!-- viewport responsividad -->
+      <meta name="viewport"
+            content="width=device-width, initial-scale=1.0">
+      <!-- cdn recurso bootstrap css y js ver 4.5.3 :::: integrar carpetas bootstrap css y js al proyecto -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+      <!-- cdn font-awesome ver 5.15-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" referrerpolicy="no-referrer" />      <!-- fuentes google -->
+      <!-- cdn google-fonts-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,900&family=Roboto&display=swap" rel="stylesheet">
+      <title>Barberia</title>
+      <!-- favicon propio -->
+      <link rel="icon"
+            href="assets/img/mvr7.png"
+            type="image/png">
+      <!-- hoja de estilo -->
+      <link rel="stylesheet"
+            href="assets/css/style.css">
+  </head>
+  <!-- cuerpo -->
+  <body>
+
+    <!-- barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark"><!-- navbar fijo arriba,  color letra blanca en opciones-->
+        <div class="container-fluid"><!-- div contenedor, de esta forma las filas se alinean bien y muestran el padding correcto (anchura variable) -->
+          <a class="navbar-brand" href="#"><img src="assets\img\logo.png" alt="logo">
+          </a><!-- barra de navegación transparente -->
+          <button class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"><!-- se mostrará únicamente cuando el menú se colapse y se ocultará cuando el menú aparezca expandid -->
+                  <span class="navbar-toggler-icon"></span><!-- hamburguesa -->
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mb-2 mb-lg-0"><!--opciones con un margen left automatico-->
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Descripcion">Trabajos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Experiencia">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Trabajos">Horas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <!-- Hero-Section : encabezado y cuerpo principal (foto) -->
+    <header id="Hero-Section">
+      <div class="text-center">
+        <h1>5 formas de cuidar</h1><!--1ºhijo-->
+        <h1>tu corte de cabello</h1><!--2ºhijo(last child)-->
+        <h1></h1><!--2ºhijo(last child)-->
+        <i class="fas fa-angle-double-down fa-2x mt-5"></i>
+      </div>
+    </header>
+
+
+    <!-- Descripcion -->
+    <section id="Descripcion" class="pt-5 container ms-2"><!--en cualquier orden class e id-->
+      <div><!--1ºhijo (titulo)-->
+        <p>
+          12 de abril de 2018
+        </p>
+      </div>
+      <div class="row pt-3 mx-2"><!--una fila (last child)2 parrafos-->
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+              <button class="button-wrapper">Compartir</button>
+              <button class="button-wrapper">Comentar en Twitter</button>
+      </div>
+    </section>
+
+    <!-- Naomi -->
+      <section id="Naomi">
+        <div>
+          <hr><!-- barra -->
+        </div>
+      <div class="row pt-3 mx-4">
+
+        <!-- Foto -->
+        <article class="col-12 col-sm-3">
+          <img src="assets/img/naomi-thai.png" class="rounded-circle" alt="Eniun">
+        </article>
+
+        <!-- email -->
+        <article class="col-12 col-sm-3">
+          <h4 class=" mt-3 container"><h1 class="naomi mt-3">Naomi Thai</h1>
+          <div class="email">
+            <h5>@Naothai</h5>
+            <h5>depelos.com</h5>
+          </div></h4>
+        </article>
+
+        <!--Texto-->
+        <article class="col-12 col-sm-6">
+          <p class="mt-3 d-none d-sm-block container">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud  laboris.</p>
+        </article>
+      </div>
+    </section>
+
+    <!--navbar color: platinium-->
+    <section id="Platino">
+
+      <nav class="navbar navbar-expand navbar-light">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse pt-5 mb-5"
+                id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-5 mb-lg-5">
+              <li class="nav-item">
+                <button type="button" class="page-link">Anterior</button>
+              </li>
+              <li class="nav-item">
+                <button type="button" class="page-link">1</button>
+              </li>
+              <li class="nav-item">
+                <button type="button" class="page-link">2</button>
+              </li>
+              <li class="nav-item">
+                <button type="button" class="page-link">3</button>
+              </li>
+              <li class="nav-item">
+                <button type="button" class="page-link">Siguiente</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <!--footer-->
+    <footer id="Footer" class="text-center py-5"><!--pie de pagina blanco y centrado-->
+      <div class="row container m-auto"><!--fila contenido centrado-->
+        <div class="col-12 col-sm-6"><!-- (1 col de 12) >sm=6 (2 col de 6) -->
+          <!-- mobile first -->
+        </div>
+        <div class="col-12 mt-4 mt-sm-0"><!--margin top 4ºnivel-->
+          <!-- <sm(1 col de 12) >sm=6 (2 col de 6) mt-4<sm>mt-0 -->
+          <img src="assets\img\logo.png" alt="logo">
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>

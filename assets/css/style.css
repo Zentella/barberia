@@ -1,0 +1,92 @@
+input.button {
+  margin: 0 auto;
+  display: inline-block;
+  width: 4rem;
+}
+
+button {
+  background-color: gray;
+  border: none;
+  color: white;
+  padding: 5px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 4px;
+  cursor: pointer;
+  line-height: 2.33;
+  border-radius: 350px;
+}
+
+nav {
+  background-color: #121619;
+}
+nav a {
+  font-size: 16px;
+  font-family: "Roboto";
+}
+nav a img {
+  margin-left: 100px;
+  width: 30%;
+}
+
+#Platino nav {
+  background-color: #e8e8e8;
+}
+
+body header {
+  height: 100vh;
+  /* 100% de viewport */
+  background-image: url("../img/post-image.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  color: white;
+}
+body header div {
+  position: absolute;
+  top: 200px;
+  width: 100%;
+  font-style: italic;
+}
+body header div h1 {
+  font-size: 72px;
+}
+@media (max-width: 576px) {
+  body header {
+    /*al reducir a pantalla sm*/
+  }
+  body header div {
+    top: 200px;
+    width: 50%;
+    margin-left: 100px;
+    font-style: italic;
+  }
+  body header div h1 {
+    font-size: 40px;
+    font-family: "Playfair Display", serif;
+  }
+}
+
+Footer {
+  background-color: #121619;
+  color: white;
+}
+Footer img {
+  width: 10%;
+}
+
+h1, h2, h3 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-style: italic;
+}
+
+p {
+  font-family: "Roboto";
+  line-height: 3;
+}
+
+/*# sourceMappingURL=style.css.map */
