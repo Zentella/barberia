@@ -4,6 +4,11 @@ h1, h2, h3 {
   font-style: italic;
 }
 p {
-  font-family: $roboto;
+  font-family: $Roboto;
+  font-size: 16px;
   line-height: 3;
+  color: $Eerieblack;
+}
+button{
+  font-family: $Roboto;
 }
