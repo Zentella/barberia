@@ -3,12 +3,12 @@ nav {/*barra nav negra*/
   a {
     color: $white;
      img {/*tamaño y posicion de logo*/
-      margin-left: 130px;
+      margin-left: $xxxx-large;
       width: 20%;
     }
   }
-  nav.navbar-nav {
-    margin-left: 10px;
+  .navbar-nav {/*menú barra nav negra*/
+    margin-left: 450px;
   }
   @media (max-width: 576px) {/*al reducir a pantalla sm*/
     a img {
@@ -17,7 +17,7 @@ nav {/*barra nav negra*/
     }
   }
 }
-
+/*al pasar el mouse cambia color*/
 .main a.nav-link  {
   :hover {
     color: $Rudypink;

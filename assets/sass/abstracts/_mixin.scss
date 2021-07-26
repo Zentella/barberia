@@ -1,7 +1,5 @@
-@mixin datos {
-  color:$white;
-  text-align: center;
-  font-size: $x-large;
-  font-family: $Open-sans;
-  font-weight: $semi-bold;
+@mixin letras {
+  font-family: $Roboto;//
+  font-size: $medium;//
+  line-height: 3;//
 }

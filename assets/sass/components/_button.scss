@@ -8,12 +8,12 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: $medium;
   margin: 2px 4px;
   line-height: 2.33;
   border-radius: 350px;
 }
-#Descripcion button:hover {
+#Descripcion button:hover {/*al pasar el mouse cambia color*/
   background-color: $Light-gray;
 }
 /*pagination*/
@@ -30,7 +30,7 @@
   border-top-left-radius: 45px;
 }
 .activa {
-  :hover {
+  :hover {/*al pasar el mouse cambia color*/
     background-color: $Niquel;
     color: $white;
   }
