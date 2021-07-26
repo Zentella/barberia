@@ -1,8 +1,5 @@
-input.button {
-    margin: 0 auto;
-    display: inline-block;
-    width: 4rem;
-}
+/* Description */
+
 #Descripcion button {
   background-color: $Niquel;
   border: none;
@@ -13,23 +10,13 @@ input.button {
   display: inline-block;
   font-size: 16px;
   margin: 2px 4px;
-  //cursor: pointer;
   line-height: 2.33;
   border-radius: 350px;
 }
 #Descripcion button:hover {
-  background-color: $Platinum;
+  background-color: $Light-gray;
 }
-
-.navbar-toggler {
-    color: white;
-    border: none;
-    padding: none;
-
-
-    //margin: 2px 36px;
-  }
-
+/*pagination*/
 #Derecha {
   border: 2px solid $Platinum;
   padding: 10px;
@@ -45,5 +32,6 @@ input.button {
 .activa {
   :hover {
     background-color: $Niquel;
+    color: $white;
   }
 }

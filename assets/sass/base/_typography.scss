@@ -3,12 +3,28 @@ h1, h2, h3 {
   font-weight: bold;
   font-style: italic;
 }
-p {
+#Descripcion p {
   font-family: $Roboto;
   font-size: 16px;
   line-height: 3;
   color: $Eerieblack;
+
 }
+#Descripcion small {
+  font-family: $Roboto;
+  font-size: $medium;
+  line-height: 3;
+  color: $Spanishpink;
+
+}
+#Naomi p {
+  font-size: $medium;
+  font-family: $Roboto;
+  line-height: 3;
+  color: $Eerieblack;
+
+}
+
 button{
   font-family: $Roboto;
 }

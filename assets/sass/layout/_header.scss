@@ -1,8 +1,7 @@
 body {
   header {
     height: 100vh;/* 100% de viewport */
-    background-image: url('../img/post-image.jpg');
-    //background-position: 10;
+    background-image: url('../img/post-image.jpg');/*fondo*/
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -10,7 +9,8 @@ body {
     color: white;
     div {
       position: absolute;
-      top: 200px;//330
+      top: 220px;
+      left:-24px;
       width: 100%;
       font-style: italic;
       h1 {
@@ -18,18 +18,21 @@ body {
      }
      i {
        margin-top: 10rem;
-
      }
     }
     @media (max-width: 576px) {/*al reducir a pantalla sm*/
       div {
-        top: 330px;
+        top: 280px;
         width: 50%;
-        margin-left: 100px;
+        margin-left: 90px;
         font-style: italic;
         h1 {
          font-size: 40px;
          font-family: $playfair;
+       }
+       i {
+         margin-top: 10rem;
+
        }
 
       }

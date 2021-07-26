@@ -1,26 +1,25 @@
+/*Naomi - email*/
 .email {
   color: $Spanishpink;
   font-size: 16px;
   font-family: $Roboto;
 }
-.page-link {
-  color: $Eerieblack;
-}
-
 /* media query */
 @media (max-width: 576px) {/*al reducir a pantalla sm*/
   #Naomi img {
     width: 50%;
     margin-left: 50px;
-
   }
   .email {
   margin-left:20%;
   }
-
 }
 
+/*pagination*/
 #Platino {
   justify-content: center;
   margin: auto;
+}
+.page-link {
+  color: $Eerieblack;
 }
