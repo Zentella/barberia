@@ -3,26 +3,31 @@ input.button {
     display: inline-block;
     width: 4rem;
 }
-button {
+#Descripcion button {
   background-color: $Niquel;
   border: none;
-  color: white;
-  padding: 5px 30px;
+  color: $white;
+  padding: 5px 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   margin: 2px 4px;
-  cursor: pointer;
+  //cursor: pointer;
   line-height: 2.33;
   border-radius: 350px;
 }
-button:hover {
+#Descripcion button:hover {
   background-color: $Platinum;
 }
-button .navbar-toggler-icon{
+
+.navbar-toggler {
     color: white;
-    margin: 2px 36px;
+    border: none;
+    padding: none;
+
+
+    //margin: 2px 36px;
   }
 
 #Derecha {
@@ -37,7 +42,7 @@ button .navbar-toggler-icon{
   border-bottom-left-radius: 45px;
   border-top-left-radius: 45px;
 }
-.ba {
+.activa {
   :hover {
     background-color: $Niquel;
   }
