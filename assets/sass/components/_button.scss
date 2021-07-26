@@ -13,6 +13,7 @@
   line-height: 2.33;
   border-radius: 350px;
 }
+/* pseudo clase */
 #Descripcion button:hover {/*al pasar el mouse cambia color*/
   background-color: $Light-gray;
 }
@@ -29,6 +30,7 @@
   border-bottom-left-radius: 45px;
   border-top-left-radius: 45px;
 }
+/* pseudo clase */
 .activa {
   :hover {/*al pasar el mouse cambia color*/
     background-color: $Niquel;

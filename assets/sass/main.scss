@@ -1,5 +1,6 @@
 @import 'abstracts/variables';
 @import 'abstracts/mixin';
+@import 'base/base';
 @import 'base/reset';
 @import 'base/typography';
 @import 'layout/header';
@@ -7,3 +8,4 @@
 @import 'layout/footer';
 @import 'layout/nav';
 @import 'components/button';
+@import 'vendors/bootstrap-4.6.0-dist/css/bootstrap';

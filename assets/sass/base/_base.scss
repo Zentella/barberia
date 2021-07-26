@@ -1,0 +1,10 @@
+/* base style */
+body {
+  height: 100vh;/* 100% de viewport */
+  background-image: url('../img/post-image.jpg');/*fondo*/
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  color: white;
+}
