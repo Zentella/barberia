@@ -158,7 +158,7 @@ nav a img {
 }
 nav .navbar-nav {
   /*menú barra nav negra*/
-  margin-left: 450px;
+  margin-left: 285px;
 }
 @media (max-width: 576px) {
   nav {
